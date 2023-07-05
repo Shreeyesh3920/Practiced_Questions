@@ -1,0 +1,16 @@
+for(int i=0;i<input.length;i++) 
+		{
+			for(int j=0;j<input.length;j++) 
+			{
+				if(i==j)									//for primary diagonal 
+				{
+					diagonal1=diagonal1+input[i][j];
+				}
+				if((i + j) == (input.length- 1))            //for secondary diagonal
+				{
+					diagonal2=diagonal2+input[i][j];
+				}
+			}
+		}
+		
+////////////////////////////////////////////////////////////////////////////////////
