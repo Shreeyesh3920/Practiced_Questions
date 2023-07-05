@@ -1,0 +1,4 @@
+# Find no. of rows and columns in 2d array;
+T[][] array_name = new T[row][col];
+array_name.length // row
+array_name[0].length // col
