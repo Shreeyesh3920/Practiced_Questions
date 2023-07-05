@@ -1,16 +1,22 @@
-for(int i=0;i<input.length;i++) 
-		{
-			for(int j=0;j<input.length;j++) 
-			{
-				if(i==j)									//for primary diagonal 
-				{
-					diagonal1=diagonal1+input[i][j];
-				}
-				if((i + j) == (input.length- 1))            //for secondary diagonal
-				{
-					diagonal2=diagonal2+input[i][j];
-				}
-			}
-		}
-		
-////////////////////////////////////////////////////////////////////////////////////
+CHEATSHEET
+
+###############################################################################
+String str="shreeyesh";
+
+now add characters of the above string one by one in HashSet for that-
+
+for(i=0;i<=str.lenght();i++)
+{
+char ch=str.charAt(i);
+hash.add(ch);
+}
+################################################################################
+
+//Taking char as an input
+ 
+	char ch=sc.next().charAt(0);
+################################################################################
+
+//Integer to BINARY (BITS) using .toBinaryString()
+int val = 999;
+Integer.toBinaryString(val)
